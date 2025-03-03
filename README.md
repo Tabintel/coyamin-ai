@@ -1,5 +1,10 @@
 # Coyamin - AI-Powered Financial Insights
 
+<div align="center">
+  <img src="media/CoyaminAI.png" alt="Coyamin AI " width="250" />
+  <p><em>Your AI-powered financial companion</em></p>
+</div>
+
 Coyamin is an AI-powered financial insights application that helps users understand and optimize their personal finances. Built with Next.js, CopilotKit for AI assistance, and Maybe Finance API for financial data.
 
 ## Features
@@ -15,7 +20,7 @@ Coyamin is an AI-powered financial insights application that helps users underst
 - **Frontend**: Next.js 14+, React, Tailwind CSS
 - **AI Integration**: CopilotKit
 - **Financial Data**: Maybe Finance API
-- **Authentication**: Clerk
+- **Authentication**: Google OAuth with NextAuth.js
 - **Visualization**: Recharts
 
 ## Installation
@@ -24,9 +29,10 @@ Coyamin is an AI-powered financial insights application that helps users underst
 
 - Node.js 18+ and npm
 - Accounts for:
-  - Next Auth (authentication)
+  - Google Cloud Platform (for OAuth)
   - [CopilotKit](https://docs.copilotkit.ai/) (AI assistant)
   - [Maybe Finance](https://synthfinance.com/) (financial data API)
+- MongoDB database
 
 ### Setup
 
