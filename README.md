@@ -32,7 +32,7 @@ Coyamin is an AI-powered financial insights application that helps users underst
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Tabintel\/ai-savings.git
+   git clone https://github.com/Tabintel/ai-savings.git
    cd ai-savings
    ```
 
